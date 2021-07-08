@@ -10,7 +10,6 @@
   
   nav {
     z-index: 100;
-            transform-style: preserve-3d;
     position: fixed;
     top: 0;
     width: 100%;
@@ -191,4 +190,15 @@
     nav .menu-btn {
       display: block;
     }
+  }
+
+  .gallery{
+      display: flex;
+      flex-direction: column;
+      img{
+          padding: 80px;
+          max-width: 100%;
+          height: auto;
+          object-fit: contain;
+      }
   }
