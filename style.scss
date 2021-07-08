@@ -193,12 +193,9 @@
   }
 
   .gallery{
-      display: flex;
-      flex-direction: column;
       img{
           padding: 80px;
           max-width: 100%;
           height: auto;
-          object-fit: contain;
       }
   }
